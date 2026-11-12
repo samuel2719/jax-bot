@@ -1,0 +1,14 @@
+{
+  "background_color": "hsl(227, 78%, 40%)",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "JAX BOT",
+  "orientation": "any",
+  "scope": "//jax-bot/",
+  "short_name": "JAX BOT",
+  "start_url": "//jax-bot/",
+  "theme_color": "#e50606",
+  "description": "Asistente inteligente para evaluar ofertas de viajes.",
+  "id": "JAX BOT",
+  "lang": "es"
+}
