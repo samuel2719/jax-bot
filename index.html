@@ -78,4 +78,12 @@ function evaluateOffer(){
  el.innerHTML=`<div class="tag">${ok?'CUMPLE TUS FILTROS':'NO CUMPLE TUS FILTROS'}</div><strong>${ok?'Oferta conveniente según tus reglas':'Oferta descartada por tus reglas'}</strong><p style="margin:8px 0 0;color:#c4cada">${checks.map(c=>(c[0]?'✓ ':'✕ ')+c[1]).join('<br>')}</p><p style="margin:8px 0 0;color:#c4cada">Distancia total: ${total.toFixed(1)} km · Tarifa calculada: RD$${total>0?(fare/total).toFixed(2):'0.00'}/km</p>`;
 }
 loadRules();
-</script></body></html>
+</script><script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js")
+      .then(() => console.log("JAX BOT conectado"))
+      .catch(error => console.error(error));
+  });
+}
+</script> </body></html>
