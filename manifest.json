@@ -1,14 +1,24 @@
+
 {
-  "background_color": "hsl(227, 78%, 40%)",
+  "background_color": "#101010",
   "dir": "ltr",
   "display": "standalone",
   "name": "JAX BOT",
+  "short_name": "JAX BOT",
   "orientation": "any",
   "scope": "./",
-"start_url": "./",
-  "short_name": "JAX BOT",
+  "start_url": "./",
   "theme_color": "#e50606",
   "description": "Asistente inteligente para evaluar ofertas de viajes.",
-  "id": "./"
-  "lang": "es"
+  "id": "./",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "./file_00000000331881f5a2e036d32cfe6490.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
+
