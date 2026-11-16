@@ -12,18 +12,19 @@
   "description": "Asistente inteligente para evaluar ofertas de viajes.",
   "id": "./",
   "lang": "es",
-  "icons": [
-    {
-      "src": "./file_00000000331881f5a2e036d32cfe6490.png",
-      "sizes": "512x512",
-      "type": "image/png",
-"purpose": "any"
-},
-{
-  "src": "./icons/icon-192.png",
-  "sizes": "192x192",
-  "type": "image/png",
-  "purpose": "any"
-}
+"icons": [
+  {
+    "src": "./file_00000000331881f5a2e036d32cfe6490.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "any"
+  },
+  {
+    "src": "./icons/icon-192.png",
+    "sizes": "192x192",
+    "type": "image/png",
+    "purpose": "any"
+  }
 ]
+
 }
