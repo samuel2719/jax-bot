@@ -1,4 +1,4 @@
-const CACHE_NAME = "jax-bot-v1";
+const CACHE_NAME = "jax-bot-v2";
 
 const FILES_TO_CACHE = [
   "./",
